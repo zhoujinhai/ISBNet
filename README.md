@@ -111,3 +111,8 @@ This repo is built upon [SpConv](https://github.com/traveller59/spconv), [DyCo3D
 
 ## Contacts :email:
 If you have any questions or suggestions about this repo, please feel free to contact me (ductuan.ngo99@gmail.com).
+
+## Teeth
+```bash
+nohup python tools/train.py configs/teeth/isbnet_teeth.yaml --trainall --exp_name teeth 2>&1 &
+```
